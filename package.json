@@ -7,7 +7,8 @@
     ],
   "scripts": {
     "start": [
-     "node asf74.js"
+     "node asf74.js",
+     "node asf75.js"
      
       ]
   },
