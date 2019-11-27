@@ -8,7 +8,6 @@
   "scripts": {
     "start": [
      "node asf51.js",
-     "node asf74.js",
      "node asf75.js"
      
       ]
