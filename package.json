@@ -9,6 +9,7 @@
     "start": [
      "node asf51.js",
      "node asf52.js",
+     "node asf53.js",
      "node asf75.js"
      
       ]
