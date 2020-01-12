@@ -2,20 +2,6 @@
 const Discord = require('discord.js');
 const Enmap = require(`enmap`);
 const farm = new Enmap();
-const client1 = new Discord.Client();
-
-client1.on("ready", () => {
-
-	      var interval = setInterval (function () {
-        client1.channels.get("665956048724820009").send(Math.random().toString(36).substring(7)) 
-
-}, 270000);
-
-});
-
-
-
-client1.login(process.env.S1);
 
 
 
@@ -847,27 +833,7 @@ client50.on("ready", () => {
 
 client50.login(process.env.S50);
 
-client1.on('message', msg => {
-    let ownerid = '665954910654955540';
-    if(msg.author.id === ownerid){
-        if(msg.content.startsWith('c')){
 
-            if(msg.isMentioned(client1.user)){
-                farm.set(`farm`, 'blah blah')
-                let args = msg.content.split(` `)
-                msg.channel.send(`#credits <@665954910654955540> ${args[2]}`).then(()=>{
-                    const filter = m => m.author.id === msg.author.id;
-                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
-                        if(col.first().content === "cancel"){
-                            return msg.reply(`Canceled!`);
-                        }
-                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
-                    })
-                })
-            }
-        }
-    }
-});
 client2.on('message', msg => {
     let ownerid = '665954910654955540';
     if(msg.author.id === ownerid){
