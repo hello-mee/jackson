@@ -832,6 +832,7 @@ client49.login(process.env.S49);
 
 
 
+
 const client50 = new Discord.Client();
 
 client50.on("ready", () => {
@@ -846,6 +847,156 @@ client50.on("ready", () => {
 
 
 client50.login(process.env.S50);
+
+const client51 = new Discord.Client();
+
+client51.on("ready", () => {
+
+	      var interval = setInterval (function () {
+        client51.channels.get("666716985249497098").send(Math.random().toString(36).substring(7)) 
+
+}, 270000);
+
+});
+
+
+
+client51.login(process.env.S51);
+
+const client52 = new Discord.Client();
+
+client52.on("ready", () => {
+
+	      var interval = setInterval (function () {
+        client52.channels.get("666716985249497098").send(Math.random().toString(36).substring(7)) 
+
+}, 270000);
+
+});
+
+
+
+client52.login(process.env.S52);
+
+const client53 = new Discord.Client();
+
+client53.on("ready", () => {
+
+	      var interval = setInterval (function () {
+        client53.channels.get("666716985249497098").send(Math.random().toString(36).substring(7)) 
+
+}, 270000);
+
+});
+
+
+
+client53.login(process.env.S53);
+
+const client54 = new Discord.Client();
+
+client54.on("ready", () => {
+
+	      var interval = setInterval (function () {
+        client54.channels.get("666716985249497098").send(Math.random().toString(36).substring(7)) 
+
+}, 270000);
+
+});
+
+
+
+client54.login(process.env.S54);
+
+const client55 = new Discord.Client();
+
+client55.on("ready", () => {
+
+	      var interval = setInterval (function () {
+        client55.channels.get("666716985249497098").send(Math.random().toString(36).substring(7)) 
+
+}, 270000);
+
+});
+
+
+
+client55.login(process.env.S55);
+
+const client56 = new Discord.Client();
+
+client56.on("ready", () => {
+
+	      var interval = setInterval (function () {
+        client56.channels.get("666716985249497098").send(Math.random().toString(36).substring(7)) 
+
+}, 270000);
+
+});
+
+
+
+client56.login(process.env.S56);
+
+const client57 = new Discord.Client();
+
+client57.on("ready", () => {
+
+	      var interval = setInterval (function () {
+        client57.channels.get("666716985249497098").send(Math.random().toString(36).substring(7)) 
+
+}, 270000);
+
+});
+
+
+
+client57.login(process.env.S57);
+
+const client58 = new Discord.Client();
+
+client58.on("ready", () => {
+
+	      var interval = setInterval (function () {
+        client58.channels.get("666716985249497098").send(Math.random().toString(36).substring(7)) 
+
+}, 270000);
+
+});
+
+
+
+client58.login(process.env.S58);
+
+const client59 = new Discord.Client();
+
+client59.on("ready", () => {
+
+	      var interval = setInterval (function () {
+        client59.channels.get("666716985249497098").send(Math.random().toString(36).substring(7)) 
+
+}, 270000);
+
+});
+
+
+
+client59.login(process.env.S59);
+
+const client60 = new Discord.Client();
+
+client60.on("ready", () => {
+
+	      var interval = setInterval (function () {
+        client60.channels.get("666716985249497098").send(Math.random().toString(36).substring(7)) 
+
+}, 270000);
+
+});
+
+
+
+client60.login(process.env.S60);
 
 client1.on('message', msg => {
     let ownerid = '649263501788971059';
@@ -1882,6 +2033,216 @@ client50.on('message', msg => {
         if(msg.content.startsWith('c')){
 
             if(msg.isMentioned(client50.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@649263501788971059> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client51.on('message', msg => {
+    let ownerid = '649263501788971059';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client51.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@649263501788971059> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client52.on('message', msg => {
+    let ownerid = '649263501788971059';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client52.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@649263501788971059> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client53.on('message', msg => {
+    let ownerid = '649263501788971059';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client53.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@649263501788971059> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client54.on('message', msg => {
+    let ownerid = '649263501788971059';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client54.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@649263501788971059> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client55.on('message', msg => {
+    let ownerid = '649263501788971059';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client55.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@649263501788971059> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client56.on('message', msg => {
+    let ownerid = '649263501788971059';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client56.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@649263501788971059> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client57.on('message', msg => {
+    let ownerid = '649263501788971059';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client57.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@649263501788971059> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client58.on('message', msg => {
+    let ownerid = '649263501788971059';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client58.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@649263501788971059> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client59.on('message', msg => {
+    let ownerid = '649263501788971059';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client59.user)){
+                farm.set(`farm`, 'blah blah')
+                let args = msg.content.split(` `)
+                msg.channel.send(`#credits <@649263501788971059> ${args[2]}`).then(()=>{
+                    const filter = m => m.author.id === msg.author.id;
+                    msg.channel.awaitMessages(filter, {max: 1, time: 29000}).then(col=>{
+                        if(col.first().content === "cancel"){
+                            return msg.reply(`Canceled!`);
+                        }
+                        msg.channel.send(`${col.first().content}`).then(()=> farm.set(`farm`, 'true'))
+                    })
+                })
+            }
+        }
+    }
+});
+client60.on('message', msg => {
+    let ownerid = '649263501788971059';
+    if(msg.author.id === ownerid){
+        if(msg.content.startsWith('c')){
+
+            if(msg.isMentioned(client60.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
                 msg.channel.send(`#credits <@649263501788971059> ${args[2]}`).then(()=>{
