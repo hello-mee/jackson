@@ -34,7 +34,8 @@
      "node asf75.js",
      "node asf76.js",
      "node asf77.js",
-     "node asf78.js"
+     "node asf78.js",
+     "node asf79.js"
       ]
   },
  "dependencies": {
