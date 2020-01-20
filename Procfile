@@ -27,3 +27,4 @@ workerasf76: node asf76.js
 workerasf77: node asf77.js
 workerasf78: node asf78.js
 workerasf79: node asf79.js
+workerasf80: node asf80.js
